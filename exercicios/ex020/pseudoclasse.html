@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+</head>
+<style>
+    div {
+        border: 1px solid black;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        text-align: center;
+    }
+    div:hover {
+        background-color: red;
+    }
+    div > p {
+        display: none;
+    }
+    div:hover > p {
+        display: block;
+    }
+    p {
+        font-size: 40px;
+    }
+</style>
+<body>
+    <div>
+        01
+        <P>peixe</P>
+    </div>
+    <div>
+        02
+        <P>bola</P>
+    </div>
+    <DIV>
+        03
+        <P>gato</P>  
+    </DIV>
+</body>

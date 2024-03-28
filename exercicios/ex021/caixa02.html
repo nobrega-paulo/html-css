@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            background-color: rgb(71, 71, 71);
+            margin: 0px;
+        }
+        
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+    
+        nav {
+            background-color: darkgray;
+            padding: 3px;
+            box-shadow: 1px 1px 3px black;
+        }
+    
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px; 
+        }  
+    
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 0px;
+        }
+    
+        article {
+            background-color: darkgray;
+            padding: 10px;
+            margin: 10px;
+        }
+    
+        article > aside {
+            background-color: aqua;
+        }
+    
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+        }
+    
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Políticas Tecnologia</p>
+        </section>
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea illum quod repellat sequi itaque unde perspiciatis! Illo laboriosam saepe, quos accusamus earum iusto, id fugit accusantium asperiores voluptatibus dolore quod.</p>
+            <aside>
+                <p>Escrito por josé da silva</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo teu pai</p>
+    </footer>
+</body>
+</html>

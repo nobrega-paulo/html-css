@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonte-pika;
+    src: url(idroid.otf);
+}
+body {
+    background-color: #84E1AD;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border: 0px;
+    width: auto;
+}
+header {
+    background-image: linear-gradient(#41f090, #113a24);
+    margin: 0px;
+    box-shadow: 1px 1px 1px black;
+}
+header > h1 {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    border: 0px;
+    padding: 0px;
+}
+header > p {
+    text-align: center;
+    color: white;
+}
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+header > nav > a:hover {
+    background-color:#84E1AD ;
+}
+main {
+    width: 850px;
+    border: 0px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px  black;
+}
+main > article > h2 {
+    font-family: fonte-pika;
+    color: #2A6745;
+    margin: 0px;
+}
+main > article > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+main > article {
+    padding: 20px;
+}
+div {
+    background-color: #113a24;
+    width: 850px; 
+    margin: auto; 
+}
+div > iframe {
+    width: 750px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+}
+footer {
+    background-color: white;
+    width: 850px;
+    margin: auto;
+}
+footer > article {
+    background-color: white;
+    padding: 15px;
+}
+footer > article > #rodape {
+    padding: 0px;
+    background-color: #C5EBD6;
+    width: 750px;
+    height: 500px;
+    border-radius: 10px 10px 10px;
+}
+footer > article > div > h2 {
+    background-color: #47c47f;
+    margin: 0px;
+    width: 750px;
+    border-radius: 10px 10px 0px 0px;
+}
+body > footer > p {
+    text-indent: 30px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+body > p {
+    background-color: #113a24;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
